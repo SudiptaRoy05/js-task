@@ -18,4 +18,8 @@ const result = (mScore, fScore) => {
   return category;
 };
 
-console.log(result(90, 55));
+console.log(result(85, 85)); 
+console.log(result(85, 70)); 
+console.log(result(85, 50)); 
+console.log(result(85, 30)); 
+console.log(result(75, 85)); 

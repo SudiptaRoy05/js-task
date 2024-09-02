@@ -8,5 +8,4 @@ function freeDrinks(burger){
     }
 }
 
-var burger = 800;
-freeDrinks(burger);
+freeDrinks(50);

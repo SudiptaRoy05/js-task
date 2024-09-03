@@ -4,7 +4,7 @@
 //     }
 //     console.log(i);
 // }
-
+/////////////////////////////////////////////////extra/////////////////////////////
 async function fetchData() {
   const url = "https://jsonplaceholder.typicode.com/todos/1";
   const response = await fetch(url);
@@ -18,4 +18,6 @@ fetchData().then(data => {
       console.log("Failed to fetch data.");
     }
   });
+
+//   console.log(fetchData()); 
 

@@ -8,3 +8,11 @@ for(let i=j.length-1; i>=0 ; i--){
 }
 console.log(j);
 console.log(reversed);
+
+
+// ....................another way ............... 
+const statements = 'I am a hard working person';
+const words = statements.split(' ');
+const reversedWords = words.reverse().join(' ');
+
+console.log(reversedWords); 

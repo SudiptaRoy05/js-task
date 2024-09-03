@@ -1,12 +1,13 @@
 var num = 1;
 var sum = 0;
 
-while(num <= 1000 ){
-    if(num === 101){
-        break;
-    }
+while(true ){
     sum = sum+num;
     console.log(num);
+    if(num === 100){
+        break;
+    }
+    
     num++;
 }
 

@@ -12,3 +12,13 @@ const size = (str) =>{
 }
 var v = "sdfghjrgwhjk";
 console.log(size(v));
+console.log("----------------------------------")
+
+// another simple way
+
+const sized =(str)=>{
+    var size = str.length;
+    return (size % 2 === 0)?  "even" : "odd"; 
+}
+var s = "fbhgbhbznjfhbgb"
+console.log(sized(s));

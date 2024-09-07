@@ -1,6 +1,6 @@
-const  CToF =(c)=>{
+const  cToF =(c)=>{
     const f = c*1.8+32
     return f;
 }
 
-console.log(CToF(45));
+console.log(cToF(45));

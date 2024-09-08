@@ -1,4 +1,7 @@
 function calculateMoney(ticketQuantity){
+    if(ticketQuantity < 0){
+        return "entered number in not valid";
+    }
     const ticketPrice = 120;
     const gardPerDay = 500;
     const staf = 8;

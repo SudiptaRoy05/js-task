@@ -21,7 +21,7 @@ const monthlySavings=(arr, expence)=>{
 
 
 
-const income = [10000, 300, 4000,9000];
-const cost = 14000;
+const income = [1000, 2000, 2500];
+const cost = 5000;
 
 console.log(monthlySavings(income,cost));

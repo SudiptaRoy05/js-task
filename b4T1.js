@@ -1,5 +1,5 @@
 function calculateMoney(ticketQuantity){
-    if(ticketQuantity < 0){
+    if(ticketQuantity < 0 || !Number.isInteger(ticketQuantity)){
         return "entered number in not valid";
     }
     const ticketPrice = 120;
@@ -10,4 +10,4 @@ function calculateMoney(ticketQuantity){
     return total;
 }
 
-console.log(calculateMoney(190));
+console.log(calculateMoney(130));
